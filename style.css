@@ -318,6 +318,10 @@ section {
     position: relative;
 }
 
+#about > .title {
+    margin-bottom: 20px;
+}
+
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
@@ -365,10 +369,15 @@ section {
     margin: auto 0;
 }
 
+.text-container{
+    text-align: justify;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
     position: relative;
+    margin-top: 60px;
 }
 
 .experience-sub-title {
@@ -418,7 +427,9 @@ article .icon {
 .project-img {
     border-radius: 2rem;
     width: 90%;
-    height: 90%;
+    height: 250px;
+    /* width: 90%;
+    height: 90%; */
 }
 
 .project-title {
